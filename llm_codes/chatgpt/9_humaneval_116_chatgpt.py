@@ -6,8 +6,6 @@
 
 # response:
 #
-# Here's the correct implementation for your sort_array function according to the provided docstring and examples:
-
 def sort_array(arr):
     """
     In this Kata, you have to sort an array of non-negative integers according to
@@ -20,12 +18,3 @@ def sort_array(arr):
     >>> sort_array([1, 0, 2, 3, 4]) == [0, 1, 2, 3, 4]
     """
     return sorted(arr, key=lambda x: (bin(x).count('1'), x))
-
-# Explanation:
-# - bin(x).count('1'): Counts the number of 1s in the binary representation of x.
-# - key=lambda x: (bin(x).count('1'), x): Sorts first by number of 1s, then by the value itself for tie-breaking.
-
-# Notes:
-# - This handles negative numbers correctly too since bin(-3) returns '-0b11', and count('1') still gives a meaningful count.
-# - The logic doesn't restrict to non-negatives; it respects the ordering by ones and then by decimal value for all integers.
-# Let me know if you want it to ignore negatives or handle them differently!

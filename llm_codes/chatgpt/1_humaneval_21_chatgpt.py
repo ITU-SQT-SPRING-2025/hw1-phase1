@@ -6,8 +6,6 @@
 
 # response:
 #
-# Here's the completed implementation of your rescale_to_unit function:
-
 from typing import List
 
 def rescale_to_unit(numbers: List[float]) -> List[float]:
@@ -22,10 +20,3 @@ def rescale_to_unit(numbers: List[float]) -> List[float]:
     if range_val == 0:
         return [0.0 for _ in numbers]  # All elements are equal; avoid division by zero
     return [(x - min_val) / range_val for x in numbers]
-
-# This function:
-# - Finds the minimum and maximum values in the list.
-# - Computes the range.
-# - Applies the formula (x - min) / (max - min) to each number.
-# - Handles the edge case where all numbers are the same by returning a list of zeros.
-# Let me know if you want it to raise an error or handle single-element lists differently!

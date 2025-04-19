@@ -6,8 +6,6 @@
 
 # response:
 #
-# Here's a completed version of the monotonic function that checks whether a list is monotonically increasing or decreasing:
-
 def monotonic(l: list):
     """Return True if list elements are monotonically increasing or decreasing.
     >>> monotonic([1, 2, 4, 20])
@@ -24,5 +22,3 @@ def monotonic(l: list):
     decreasing = all(l[i] >= l[i+1] for i in range(len(l) - 1))
 
     return increasing or decreasing
-
-# This function uses list comprehensions with all() to determine if the list is entirely non-decreasing or non-increasing. Let me know if you want a version that excludes equal elements (i.e., strictly increasing/decreasing)!

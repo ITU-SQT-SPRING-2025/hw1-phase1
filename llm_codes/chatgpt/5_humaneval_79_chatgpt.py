@@ -6,8 +6,6 @@
 
 # response:
 #
-# Here’s a Python function that fulfills your requirement:
-
 def decimal_to_binary(decimal):
     """
     You will be given a number in decimal form and your task is to convert it to
@@ -23,9 +21,3 @@ def decimal_to_binary(decimal):
     """
     binary_str = bin(decimal)[2:]  # Convert to binary and remove the '0b' prefix
     return f"db{binary_str}db"
-
-# Example usage:
-# print(decimal_to_binary(15))  # Output: db1111db
-# print(decimal_to_binary(32))  # Output: db100000db
-
-# Let me know if you want the reverse version too (binary to decimal)!

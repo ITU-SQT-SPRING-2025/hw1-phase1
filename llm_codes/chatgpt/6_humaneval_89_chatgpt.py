@@ -6,8 +6,6 @@
 
 # response:
 #
-# Here's a working version of the encrypt function that follows the instructions in your docstring:
-
 def encrypt(s):
     """
     Create a function encrypt that takes a string as an argument and
@@ -32,9 +30,3 @@ def encrypt(s):
             result += char  # preserve non-alpha characters if needed
 
     return result
-
-# Explanation:
-# - We're rotating the alphabet by 4 positions (2 * 2).
-# - The rotation wraps around using modulo 26.
-# - Assumes lowercase letters only, as per your examples.
-# Let me know if you want it to handle uppercase letters or preserve formatting/punctuation too!
