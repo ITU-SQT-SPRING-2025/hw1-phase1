@@ -23,15 +23,15 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 | Order | Prompt ID | Reason for being chosen | Difficulty |
 | ----: | --------- | ----------------------- | :--------: |
 | 1| HumanEval/21  | The implementation requires arithmetic knowledge. | Easy |
-| 2| HumanEval/26  | To see the behavior of the LLM, whether it uses a data structure or solves procedurally | Easy |
-| 3| HumanEval/57  | The implementation requires what monotonocally increasing/decreasing means | Easy |
-| 4| HumanEval/72  | The function requires a popular problem of being palindrom or not. | Moderate |
+| 2| HumanEval/26  | To see the behavior of the LLM, whether it uses a data structure or solves procedurally. | Easy |
+| 3| HumanEval/57  | The implementation requires what monotonocally increasing/decreasing means. | Easy |
+| 4| HumanEval/72  | The implementation requires a popular problem, which is deciding whether a sequence is palindrom or not. | Easy |
 | 5| HumanEval/79  | A common introductory problem to programming. | Easy |
-| 6| HumanEval/89  | Caesar encryption algorithm, one of the introductory algorithms to encryption. | Moderate |
-| 7| HumanEval/93  | Encoding is one of the core of computer internals | Moderate |
-| 8| HumanEval/94  | The function name does not self-describing, might mislead the LLMs' results. | Moderate |
-| 9| HumanEval/116 | Sorting is one of the core problems in the algorithms field and there are a number of sorting algorithms. The choice of LLMs might differ. | Hard |
-|10| HumanEval/126 | Checking if a list is sorted can be done in multiple ways, the choice of LLMs might differ. Thus, it is included in the test set. | Hard |
+| 6| HumanEval/89  | Encryption algorithms can be hard to grasp fully for LLMs (or for non-experts). | Hard |
+| 7| HumanEval/93  | Encoding is one of the core of communication | Hard |
+| 8| HumanEval/94  | The function name is not self-describing, might mislead the LLMs' results. | Moderate |
+| 9| HumanEval/116 | The requested implementation has an example that contradicts with the problem specification. Because of that, LLMs might struggle which requirement to satisfy. | Hard |
+|10| HumanEval/126 | Checking if a list is sorted can be done in multiple ways, the choice of LLMs might differ. Thus, it is included in the test set. | Moderate |
 |11| HumanEval/XX  |                         |                       |
 |12| HumanEval/XX  |                         |                       |
 |13| HumanEval/XX  |                         |                       |
