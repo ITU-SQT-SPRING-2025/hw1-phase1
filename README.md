@@ -15,7 +15,7 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 | ---------- | ---------------- |
 | 150220760  | Onur Yavri       |
 | 1502XXXXX  | Fatih Baskın     |
-| 1502XXXXX  | Erblina Nivokazi |
+| 150200917  | Erblina Nivokazi |
 
 
 ## Chosen test set from the HumanEval dataset.
