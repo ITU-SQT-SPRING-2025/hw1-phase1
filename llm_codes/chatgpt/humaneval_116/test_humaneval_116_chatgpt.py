@@ -34,4 +34,5 @@ class TestSortArray(unittest.TestCase):
         self.assertEqual(sort_array([3, -3, 2, -2]), [-2, -3, 2, 3])
 
 if __name__ == "__main__":
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestSortArray)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)
