@@ -37,4 +37,5 @@ class TestEncodeFunction(unittest.TestCase):
         self.assertEqual(encode(""), "")
 
 if __name__ == "__main__":
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestEncodeFunction)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

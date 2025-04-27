@@ -36,4 +36,5 @@ class TestIsSorted(unittest.TestCase):
         self.assertFalse(is_sorted([1, 1, 1]))
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestIsSorted)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

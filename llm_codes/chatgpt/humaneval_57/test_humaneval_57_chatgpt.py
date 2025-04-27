@@ -39,4 +39,5 @@ class TestMonotonicFunction(unittest.TestCase):
         self.assertFalse(monotonic([1, 3, 2, 4, 0]))
 
 if __name__ == "__main__":
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestMonotonicFunction)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

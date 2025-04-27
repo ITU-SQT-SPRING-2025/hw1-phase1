@@ -30,4 +30,5 @@ class TestRemoveDuplicates(unittest.TestCase):
         self.assertEqual(remove_duplicates([1, 1, 2, 2, 3, 3, 4]), [4])
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestRemoveDuplicates)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

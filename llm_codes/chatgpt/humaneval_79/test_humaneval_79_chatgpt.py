@@ -38,4 +38,5 @@ class TestDecimalToBinary(unittest.TestCase):
 #     return f"db{binary_str}db"
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestDecimalToBinary)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)
