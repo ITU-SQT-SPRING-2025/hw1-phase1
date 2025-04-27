@@ -36,4 +36,5 @@ class TestDecimalToBinary(unittest.TestCase):
     #         decimal_to_binary("10")
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestDecimalToBinary)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

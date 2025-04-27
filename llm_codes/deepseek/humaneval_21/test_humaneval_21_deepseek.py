@@ -47,4 +47,5 @@ class TestRescaleToUnit(unittest.TestCase):
             self.assertAlmostEqual(r, e)
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestRescaleToUnit)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

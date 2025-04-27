@@ -33,4 +33,5 @@ class TestEncode(unittest.TestCase):
         self.assertEqual(encode('123!@#'), '123!@#')
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestEncode)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

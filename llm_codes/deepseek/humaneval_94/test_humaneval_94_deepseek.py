@@ -48,4 +48,5 @@ class TestSkjkasdkd(unittest.TestCase):
         self.assertEqual(skjkasdkd(lst), 4)
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestSkjkasdkd)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

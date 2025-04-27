@@ -37,4 +37,5 @@ class TestWillItFly(unittest.TestCase):
         self.assertFalse(will_it_fly([7], 6))
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestWillItFly)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)

@@ -34,4 +34,5 @@ class TestEncryptFunction(unittest.TestCase):
         self.assertEqual(encrypt('hI'), 'lM')  # Mixed case
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestEncryptFunction)
+    testResult = unittest.TextTestRunner(verbosity=2).run(suite)
