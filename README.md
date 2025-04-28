@@ -32,16 +32,16 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 | 8| HumanEval/94  | The function name is not self-describing, might mislead the LLMs' results. | Moderate |
 | 9| HumanEval/116 | The requested implementation has an example that contradicts with the problem specification. Because of that, LLMs might struggle which requirement to satisfy. | Hard |
 |10| HumanEval/126 | Checking if a list is sorted can be done in multiple ways, the choice of LLMs might differ. Thus, it is included in the test set. | Moderate |
-|11| HumanEval/XX  |                         |                       |
-|12| HumanEval/XX  |                         |                       |
-|13| HumanEval/XX  |                         |                       |
-|14| HumanEval/XX  |                         |                       |
-|15| HumanEval/XX  |                         |                       |
-|16| HumanEval/XX  |                         |                       |
-|17| HumanEval/XX  |                         |                       |
-|18| HumanEval/XX  |                         |                       |
-|19| HumanEval/XX  |                         |                       |
-|20| HumanEval/XX  |                         |                       |
+|11| HumanEval/163 | Tests understanding of integer generation and sequence control, fundamental to program flow. | Easy |
+|12| HumanEval/27 | Involves working with pairs and sorting, a basic but important data structure operation. | Moderate |
+|13| HumanEval/6 | Requires parsing and nested list manipulation, assessing LLMs' capacity for handling recursive data. | Moderate |
+|14| HumanEval/22 | Focuses on filtering and boolean operations over arrays, important for array-processing skills. | Easy |
+|15| HumanEval/108 | Challenges involve mapping multiple rules to elements, good for testing conditional structures. | Moderate |
+|16| HumanEval/129 | Requires constructing palindromic sequences, which is slightly tricky and tests string manipulation. | Moderate |
+|17| HumanEval/143 | Involves mathematical operations and prime number logic, known to be difficult for language models. | Hard |
+|18| HumanEval/50 | Involves basic string operations and pattern matching, fundamental for LLMs. | Easy |
+|19| HumanEval/155 | Requires precise handling of list operations and slicing, prone to boundary errors. | Easy |
+|20| HumanEval/107 | Demands implementing customized arithmetic logic, harder than typical operations. | Hard |
 |21| HumanEval/XX  |                         |                       |
 |22| HumanEval/XX  |                         |                       |
 |23| HumanEval/XX  |                         |                       |
