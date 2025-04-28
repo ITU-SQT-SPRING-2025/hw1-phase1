@@ -1,3 +1,9 @@
+############################
+# @Authors
+# Student Name: Onur Yavri
+# Student ID: 150220760
+############################
+
 # used LLM model: 
 #   DeepSeek-V3
 #
