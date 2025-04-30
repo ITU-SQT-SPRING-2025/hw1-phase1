@@ -44,7 +44,7 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 |20| HumanEval/107 | Demands implementing customized arithmetic logic, harder than typical operations. | Hard |
 |21| HumanEval/161  | A basic string manipulation function that tests LLM's capacity to handle strings. | Easy |
 |22| HumanEval/160  | Requires knowledge of operator precedence and data structures (such as trees) to evaluate algebraic expressions. | Hard |
-|23| HumanEval/XX  |                         |                       |
+|23| HumanEval/158  | Function that finds a string in a given rule from an array. Requires knowledge of sets/maps and sorting | Easy |
 |24| HumanEval/XX  |                         |                       |
 |25| HumanEval/XX  |                         |                       |
 |26| HumanEval/XX  |                         |                       |
