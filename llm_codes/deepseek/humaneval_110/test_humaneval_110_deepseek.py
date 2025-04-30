@@ -7,7 +7,7 @@
 # used LLM model:
 #   DeepSeek-V3
 #
-from llm_codes.deepseek.humaneval_110.humaneval_110_deepseek import exchange
+from humaneval_110_deepseek import exchange
 
 
 # follow-up prompt:

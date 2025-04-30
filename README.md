@@ -49,7 +49,7 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 |25| HumanEval/151  | This function requires basic array handling and arithmetic knowledge. | Easy |
 |26| HumanEval/150  | For this function, prime numbers should be evaluated. It could be done in different ways for ex: Sieve of Eratosthenes. | Moderate |
 |27| HumanEval/110  | A basic function that requires array handling and counting | Easy | 
-|28| HumanEval/XX  |                         |                       |
+|28| HumanEval/109  | Some simple logic is involved to solve this function. Requires array handling | Easy |
 |29| HumanEval/XX  |                         |                       |
 |30| HumanEval/XX  |                         |                       |
 
