@@ -51,8 +51,5 @@ class TestCycPatternCheck(unittest.TestCase):
         self.assertTrue(cycpattern_check("abcdefg", "fgabc"))
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 if __name__ == '__main__':
     unittest.main()

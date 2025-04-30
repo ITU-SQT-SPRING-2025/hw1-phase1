@@ -45,8 +45,8 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 |21| HumanEval/161  | A basic string manipulation function that tests LLM's capacity to handle strings. | Easy |
 |22| HumanEval/160  | Requires knowledge of operator precedence and data structures (such as trees) to evaluate algebraic expressions. | Hard |
 |23| HumanEval/158  | Function that finds a string in a given rule from an array. Requires knowledge of sets/maps and sorting | Moderate |
-|24| HumanEval/154  | A function that counts even/odd numbers from array, tests capability to handle basic array operations. | Easy |
-|25| HumanEval/XX  |                         |                       |
+|24| HumanEval/154  | This function checks cyclic patters given in two strings. A function that tests LLM's capacity to form nested loops. | Moderate |
+|25| HumanEval/151  | This function requires basic array handling and arithmetic knowledge. | Easy |
 |26| HumanEval/XX  |                         |                       |
 |27| HumanEval/XX  |                         |                       |
 |28| HumanEval/XX  |                         |                       |
