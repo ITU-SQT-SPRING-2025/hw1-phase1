@@ -7,7 +7,7 @@
 # used LLM model:
 #   GPT-4o
 #
-from humaneval_156_chatgpt import even_odd_count
+from humaneval_155_chatgpt import even_odd_count
 
 
 # follow-up prompt:

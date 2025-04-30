@@ -7,7 +7,7 @@
 # used LLM model:
 #   DeepSeek-V3
 #
-from humaneval_156_deepseek import even_odd_count
+from humaneval_155_deepseek import even_odd_count
 
 
 # follow-up prompt:
