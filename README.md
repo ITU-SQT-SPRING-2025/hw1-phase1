@@ -14,7 +14,7 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 | Student ID |   Student Name   |
 | ---------- | ---------------- |
 | 150220760  | Onur Yavri       |
-| 1502XXXXX  | Fatih Baskın     |
+| 150210710  | Fatih Baskın     |
 | 150200917  | Erblina Nivokazi |
 
 
@@ -42,8 +42,8 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 |18| HumanEval/50 | Involves basic string operations and pattern matching, fundamental for LLMs. | Easy |
 |19| HumanEval/155 | Requires precise handling of list operations and slicing, prone to boundary errors. | Easy |
 |20| HumanEval/107 | Demands implementing customized arithmetic logic, harder than typical operations. | Hard |
-|21| HumanEval/XX  |                         |                       |
-|22| HumanEval/XX  |                         |                       |
+|21| HumanEval/161  | A basic string manipulation function that tests LLM's capacity to handle strings. | Easy |
+|22| HumanEval/160  | Requires knowledge of operator precedence and data structures (such as trees) to evaluate algebraic expressions. | Hard |
 |23| HumanEval/XX  |                         |                       |
 |24| HumanEval/XX  |                         |                       |
 |25| HumanEval/XX  |                         |                       |
