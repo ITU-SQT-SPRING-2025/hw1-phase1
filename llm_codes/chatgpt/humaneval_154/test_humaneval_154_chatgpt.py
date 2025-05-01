@@ -7,7 +7,7 @@
 # used LLM model:
 #   GPT-4o
 #
-from llm_codes.chatgpt.humaneval_154.humaneval_154_chatgpt import cycpattern_check
+from humaneval_154_chatgpt import cycpattern_check
 
 
 # follow-up prompt:
