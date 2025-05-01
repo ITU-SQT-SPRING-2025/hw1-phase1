@@ -1,5 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   DeepSeek-V3
+#
 from humaneval_129_deepseek import minPath
+
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestMinPath(unittest.TestCase):
     def test_example1(self):

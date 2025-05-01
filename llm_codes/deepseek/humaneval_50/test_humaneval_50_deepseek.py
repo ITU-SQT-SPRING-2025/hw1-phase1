@@ -1,5 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   DeepSeek-V3
+#
 from humaneval_50_deepseek import encode_shift, decode_shift
+
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestShiftCipher(unittest.TestCase):
     def test_encode_shift(self):

@@ -1,5 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   DeepSeek-V3
+#
 from humaneval_143_deepseek import words_in_sentence
+
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestWordsInSentence(unittest.TestCase):
     def test_simple_sentence(self):

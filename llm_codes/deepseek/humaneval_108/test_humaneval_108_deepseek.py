@@ -1,6 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   DeepSeek-V3
+#
 from humaneval_108_deepseek import count_nums
 
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestCountNums(unittest.TestCase):
     def test_empty_array(self):

@@ -1,5 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   DeepSeek-V3
+#
 from humaneval_22_deepseek import filter_integers
+
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestFilterIntegers(unittest.TestCase):
     def test_mixed_types(self):

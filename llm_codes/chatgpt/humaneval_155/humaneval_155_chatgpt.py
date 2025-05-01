@@ -1,3 +1,17 @@
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   GPT-4o
+#
+# prompt: 
+#   "\ndef even_odd_count(num):\n    \"\"\"Given an integer. return a tuple that has the number of even and odd digits respectively.\n\n     Example:\n        even_odd_count(-12) ==> (1, 1)\n        even_odd_count(123) ==> (1, 2)\n    \"\"\"\n"   
+#
+# response:
+#
 def even_odd_count(num):
     """Given an integer, return a tuple that has the number of even and odd digits respectively.
 

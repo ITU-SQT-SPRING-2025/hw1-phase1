@@ -1,5 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
+
+# used LLM model: 
+#   GPT-4o
+#
 from humaneval_27_chatgpt import flip_case
+
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestFlipCase(unittest.TestCase):
     

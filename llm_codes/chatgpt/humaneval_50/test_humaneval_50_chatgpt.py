@@ -1,6 +1,20 @@
-import unittest
+############################
+# @Authors
+# Student Name: Erblina Nivokazi
+# Student ID: 150200917
+############################
 
+# used LLM model: 
+#   GPT-4o
+#
 from humaneval_50_chatgpt import encode_shift, decode_shift
+
+# follow-up prompt:
+#   "using PyUnit, implement tests for this function"
+
+# response:
+#
+import unittest
 
 class TestShiftEncoding(unittest.TestCase):
     
