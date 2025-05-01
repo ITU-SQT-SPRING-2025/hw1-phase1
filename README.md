@@ -47,9 +47,9 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 |23| HumanEval/158  | Function that finds a string in a given rule from an array. Requires knowledge of sets/maps and sorting | Moderate |
 |24| HumanEval/154  | This function checks cyclic patters given in two strings. A function that tests LLM's capacity to form nested loops. | Moderate |
 |25| HumanEval/151  | This function requires basic array handling and arithmetic knowledge. | Easy |
-|26| HumanEval/150  | For this function, prime numbers should be evaluated. It could be done in different ways for ex: Sieve of Eratosthenes. | Moderate |
+|26| HumanEval/150  | For this function, prime numbers should be evaluated. It could be done using Sieve of Eratosthenes. | Easy |
 |27| HumanEval/110  | A basic function that requires array handling and counting | Easy | 
 |28| HumanEval/109  | Some simple logic is involved to solve this function. Requires array handling | Easy |
-|29| HumanEval/XX  |                         |                       |
+|29| HumanEval/106  | A basic mathematical function, however the function name is not self-describing, might mislead the LLMs' results. | Moderate |
 |30| HumanEval/XX  |                         |                       |
 
