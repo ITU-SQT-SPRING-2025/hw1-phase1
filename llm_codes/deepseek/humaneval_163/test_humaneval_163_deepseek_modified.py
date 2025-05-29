@@ -35,5 +35,8 @@ class TestGenerateIntegers(unittest.TestCase):
         with self.assertRaises(ValueError):
             generate_integers(5, -1)
 
+    def test_large_numbers(self):
+        self.assertEqual(generate_integers(100, 200), [])
+
 if __name__ == '__main__':
     unittest.main()
