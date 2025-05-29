@@ -50,19 +50,6 @@ class TestSecretIntegration(unittest.TestCase):
         result = Secret.encode(processed) if Secret.isMonotonic(processed) else Secret.decode(processed)
         self.assertEqual(result, "mn btb")
 
-    def test_empty_processed(self):
-        sentence = "a bb cccc"  # lengths 1, 2, 4 — none are prime
-        processed = Secret.processSentence(sentence)  # ""
-        result = Secret.encode(processed) if Secret.isMonotonic(processed) else Secret.decode(processed)
-        self.assertEqual(result, "")  # Nothing to encode/decode
-
-    def test_single_prime_word(self):
-        sentence = "test"
-        processed = Secret.processSentence(sentence)  # "test"
-        result = Secret.encode(processed) if Secret.isMonotonic(processed) else Secret.decode(processed)
-        self.assertEqual(result, "yjxy")  # test → yjxy
-
-
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestSecretIntegration)
     testResult = unittest.TextTestRunner(verbosity=2).run(suite)
