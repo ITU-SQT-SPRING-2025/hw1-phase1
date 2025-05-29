@@ -47,9 +47,11 @@ class TestMoveOneBall(unittest.TestCase):
 
     def some_equal_elements_one_rotation(self):
         self.assertTrue(move_one_ball([5, 1, 2, 3, 4, 5]))
+        self.assertFalse(move_one_ball([5, 1, 2, 3, 4, 5, 4]))
 
     def some_equal_elements_couple_rotations(self):
         self.assertTrue(move_one_ball([5, 5, 1, 2, 3, 4]))
+        self.assertFalse(move_one_ball([5, 4,  5, 1, 2, 3, 4]))
 
 
 if __name__ == '__main__':
