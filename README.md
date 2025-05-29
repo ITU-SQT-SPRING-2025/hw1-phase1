@@ -53,3 +53,10 @@ The LLM selection was based on the availability of the LLMs on web. Moreover, th
 |29| HumanEval/106  | A basic mathematical function, however the function name is not self-describing, might mislead the LLMs' results. | Moderate |
 |30| HumanEval/59  | A complex mathematical problem that involves prime numbers and divisors. | Hard |
 
+## Prompt for the integration test's implementation and the scenario for the integration
+
+### Prompt: 
+```You will implement a Python class named Secret that has methods of encoding a given string by shifting forward 5, wrapping around z to a in the alphabet, and decoding in the reverse manner. The class will also have a method that takes a string representing a sentence. The sentence contains some words separated by a space, and it will find a new string that contains the words from the original sentence whose lengths are prime numbers. The order of words in the original sentence will be preserved in the new sentence. Another method for this class is going to find if length of words of a sentence is monotonically increasing, or monotonically decreasing or neither of them. \nExamples: \nSecret.encode("fun code") => "kzs htij" \nSecret.encode("quick fox") => "vznhp ktc" \nSecret.decode("vznhp ktc") => "quick fox" \nSecret.isMonotonic("fun code") => True \nSecret.isMonotonic("coding is fun") => False \nSecret.processSentence("fun code") => "fun code" \nSecret.processSentence("this is a test") => "is"```
+
+### Follow-up prompt for test scenario: 
+```Using PyUnit, implement an integration test that does the process over given string sentence and encode if the processed string is monotonic, else decode the processed string.```
