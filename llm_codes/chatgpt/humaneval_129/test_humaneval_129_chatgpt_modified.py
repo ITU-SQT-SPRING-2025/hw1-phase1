@@ -16,7 +16,6 @@ from humaneval_129_chatgpt import minPath
 #
 
 import unittest
-import heapq
 
 class TestMinPath(unittest.TestCase):
 
